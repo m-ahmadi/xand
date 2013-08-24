@@ -1,0 +1,10 @@
+1 - Libraries
+	Order does not matter. // I'm not quite sure for now.
+
+2 - Aplication
+	1 - core
+	2 - config
+	3 - sandbox
+
+3 - Modules
+	Order does not matter.

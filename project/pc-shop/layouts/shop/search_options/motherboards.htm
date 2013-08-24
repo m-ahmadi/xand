@@ -1,0 +1,406 @@
+<div id="search_options">
+<form name="search_options">
+
+	<input type="hidden" name="form" value="search">
+	
+	<div class="search_option" data-so_category="company">
+		<div class="so_head">
+			<input type="button" value="-" id="company_butt" class="cmm" data-button="toggle">
+			<label for="company_butt" class="title">کمپاني</label>
+		</div>
+		
+		<div id="company" class="cb">
+			<div>
+				<input type="checkbox" name="company[]" value="GIGABYTE">
+				<label>GIGABYTE</label>
+				<label class="fright">گيگابايت</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="company[]" value="asus">
+				<label>ASUS</label>
+				<label class="fright">اسوس</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="company[]" value="asrock">
+				<label>ASROCK</label>
+				<label class="fright">ازراک</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="company[]" value="msi">
+				<label>MSI</label>
+				<label class="fright">ام اس آي</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="company[]" value="foxcon">
+				<label>FOXCON</label>
+				<label class="fright">فاکس کان</label>
+			</div>
+		</div>
+	</div>
+	
+	<div class="search_option" data-so_category="c_company">
+		<div class="so_head">
+			<input type="button" value="-" id="c_company_butt" class="cmm" data-button="toggle">
+			<label for="c_company_butt" class="title">پشتيباني سي پي يو</label>
+			<br><br>
+		</div>
+		
+		<div id="c_company" class="cb">
+			<div>
+				<input type="radio" name="c_company" value="INTEL" id="m_INTEL" checked>
+				<label>INTEL</label>
+				<label class="fright">اينتل</label>
+			</div>
+			
+			<div>
+				<input type="radio" name="c_company" value="AMD" id="m_AMD">
+				<label>AMD</label>
+				<label class="fright">اي ام دي</label>
+			</div>
+		</div>
+	</div>
+	
+	<div class="search_option" data-so_category="c_socket">
+		<div class="so_head">
+			<input type="button" value="-" id="c_socket_butt" class="cmm" data-button="toggle">
+			<label for="c_socket_butt" class="title">سوکت سي پي يو</label>
+		</div>
+		
+		<div id="c_socket" class="cb">
+			<div>
+				<input type="checkbox" name="c_socket[]" value="2011">
+				<label>2011</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="c_socket[]" value="1366">
+				<label>1366</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="c_socket[]" value="1150">
+				<label>1150</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="c_socket[]" value="1155">
+				<label>1155</label>
+			</div>
+			
+			<div>
+				<input type="checkbox" name="c_socket[]" value="775">
+				<label>775</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="search_option" data-so_category="m_supp">
+		<div class="so_head">
+			<input type="button" value="-" id="m_supp_butt" class="cmm" data-button="toggle">
+			<label for="m_supp_butt" class="title">پشتيباني مموري</label>
+		</div>
+		
+		<div id="m_supp" class="multi">
+			<div>
+				<div class="so_head">
+					<input type="button" value="-" id="ddr3_butt" class="cmm" data-button="toggle">
+					<label for="ddr3_butt" class="subtitle">DDR III</label>
+				</div>
+				
+				<div id="ddr3">
+					<div>
+						<label class="fright">&nbsp;:تعداد اسلات</label>
+						<select name="m[ddr3][slot]">
+							<option value="none">...</option>
+							<option value="2">2</option>
+							<option value="4">4</option>
+							<option value="6">6</option>
+							<option value="8">8</option>
+						</select>
+						
+					</div>
+					
+					<div>
+						<label class="fright">&nbsp;:باس</label>
+						<div><input name="m_supp[ddr3][bus]" type="checkbox"><label>1066</label></div>
+						<div><input name="m_supp[ddr3][bus]" type="checkbox"><label>1333</label></div>
+						<div><input name="m_supp[ddr3][bus]" type="checkbox"><label>1600</label></div>
+						<div><input name="m_supp[ddr3][bus]" type="checkbox"><label>1866</label></div>
+						<div><input name="m_supp[ddr3][bus]" type="checkbox"><label>2133</label></div>
+						<div><input name="m_supp[ddr3][bus]" type="checkbox"><label>2400</label></div>
+						
+					</div>
+				</div>
+			</div>
+			<hr>
+			
+			<div>
+				<div class="so_head">
+					<input type="button" value="+" id="ddr2_butt" class="cmm" data-button="toggle">
+					<label for="ddr2_butt" class="subtitle">DDR II</label>
+				</div>
+				<div id="ddr2" class="dn">
+					<div>
+					<label class="fright">&nbsp;:تعداد اسلات</label>
+					<select name="m[ddr2][slot]">
+						<option value="none">...</option>
+						<option value="2">2</option>
+						<option value="4">4</option>
+						<option value="6">6</option>
+						<option value="8">8</option>
+					</select>
+					</div>
+					<div>
+						<label class="fright">&nbsp;:باس</label>
+						<div><input name="m[ddr2][bus]" type="checkbox"><label>400</label></div>
+						<div><input name="m[ddr2][bus]" type="checkbox"><label>533</label></div>
+						<div><input name="m[ddr2][bus]" type="checkbox"><label>667</label></div>
+						<div><input name="m[ddr2][bus]" type="checkbox"><label>800</label></div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			
+			<div>
+				<div class="so_head">
+					<input type="button" value="+" id="ddr_butt" class="cmm" data-button="toggle">
+					<label for="ddr_butt" class="subtitle">DDR</label>
+				</div>
+				
+				<div id="ddr" class="dn">
+					<div>
+						<label class="fright">&nbsp;:تعداد اسلات</label>
+						<select name="m[ddr][slot]">
+							<option value="none">...</option>
+							<option value="2">2</option>
+							<option value="4">4</option>
+							<option value="6">6</option>
+							<option value="8">8</option>
+						</select>
+					</div>
+					<div>
+						<label class="fright">&nbsp;:باس</label>
+						<div><input name="m[ddr][bus]" type="checkbox"><label>266</label></div>
+						<div><input name="m[ddr][bus]" type="checkbox"><label>333</label></div>
+						<div><input name="m[ddr][bus]" type="checkbox"><label>400</label></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="search_option" data-so_category="es">
+		<div class="so_head">
+			<input type="button" value="+" id="es_butt" class="cmm" data-button="toggle">
+			<label for="es_butt" class="title">اسلات های توسعه</label>
+		</div>
+		
+		<div id="es">
+			<div>
+				<select name="es[pcie_x16][16x][num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				<label class="fright">16X&nbsp;PCIE X16</label>
+			</div>
+			
+			<div>
+				<select name="es[pcie_x16][8x][num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				<label class="fright">8X&nbsp;PCIE X16</label>
+			</div>
+			
+			<div>
+				<select name="es[pcie_x16][4x][num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				<label class="fright">4X&nbsp;PCIE X16</label>
+			</div>
+			
+			<div>
+				<select name="es[pcie_x1][num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<label class="fright">&nbsp;PCIE X1</label>
+			</div>
+			
+			<div>
+				<select name="es[pci]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<label class="fright">&nbsp;PCI</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="search_option" data-so_category="si">
+		<div class="so_head">
+			<input type="button" value="+" id="si_butt" class="cmm" data-button="toggle">
+			<label for="si_butt" class="title">واسط ذخيره سازي</label>
+		</div>
+		
+		<div id="si" class="dn">
+			<div>
+				<select name="si[sata_6Gb/s_connector_num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<label class="fright">&nbsp;SATA 6Gb/s</label>
+			</div>
+			<div>
+				<select name="si[sata_3Gb/s_connector_num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<label class="fright">&nbsp;SATA 3Gb/s</label>
+			</div>
+			<div>
+				<select name="si[sas_3Gb/s_connector_num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<label class="fright">&nbsp;SAS 3Gb/s</label>
+			</div>
+			<div>
+				<select name="si[esata_6Gb/s_connector_num]">
+					<option value="none">...</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<label class="fright">&nbsp;eSATA 6Gb/s</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="search_option" data-so_category="usb">
+		<div class="so_head">
+			<input type="button" value="+" id="usb_butt" class="cmm" data-button="toggle">
+			<label for="usb_butt" class="title">USB پورت</label>
+		</div>
+		
+		<div id="usb">
+			<div>
+				<select name="usb[3.0/2.0]">
+					<option value="none">...</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+				</select>
+				<label class="fright">&nbsp;USB 3.0/2.0</label>
+			</div>
+			<div>
+				<select name="usb[2.0/1.1]">
+					<option value="none">...</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+				</select>
+				<label class="fright">&nbsp;USB 2.0/1.1</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="search_option" data-so_category="ieee1394">
+		<div class="so_head">
+			<input type="button" value="+" id="ieee1394_butt" class="cmm" data-button="toggle">
+			<label for="ieee1394_butt" class="title">IEEE 1394 پورت</label>
+		</div>
+		
+		<div id="ieee1394">
+			<div>
+				<select name="ieee_1394[upTo]">
+					<option value="none">...</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+				</select>
+				<label class="fright">&nbsp;تعداد پورت</label>
+			</div>
+			<div>
+				<select name="ieee_1394[ver]">
+					<option value="none">...</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+				</select>
+				<label class="fright">&nbsp;نسخه پورت</label>
+			</div>
+		</div>
+	</div>
+
+	<input class="butt" type="button" value="Clear">
+
+</form>
+</div>

@@ -1,0 +1,62 @@
+/*
+The application core manages modules That's it.
+Only the application core knows which base library is being used.
+
+Application Core Jobs :
+
+Manage module life-cycle
+– Tell modules when to start and stop doing their job
+
+Enable inter-module communication
+– Allow loose coupling between modules that are related to one another
+
+General error handling
+– Detect, trap, and report errors in the system
+
+Be extensible
+– The first three jobs are not enough!
+*/
+
+
+
+
+/*	Ajax Extension
+
+Ajax Extension Jobs :
+Hide Ajax communication details
+– Modules don't need to know any of it
+
+Provide common request interface
+– Modules use this interface to specify data to send to the server
+
+Provide common response interface
+– Modules use this interface to retrieve data from the response
+
+Manage server failures
+– Modules only care if they got what they wanted or not, don't care why
+
+*/
+
+
+
+
+
+
+/*	Base Library
+
+Only the base library knows which browser is being used.
+
+Base Library Jobs:
+
+Browser normalization
+– Abstract away differences in browsers with common interface
+
+General-purpose utilities
+– Parsers/serializers for XML, JSON, etc.
+– Object manipulation
+– DOM manipulation
+– Ajax communication
+
+Provide low-level extensibility
+
+*/

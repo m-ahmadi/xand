@@ -1,0 +1,11 @@
+﻿/*
+resolution = window.screen.width +' by '+ window.screen.height +' pixels';
+if (resolution === '800 by 600 pixels')   {wrapper.style.width = '783px';} else
+if (resolution === '1024 by 768 pixels')  {wrapper.style.width = '1007px';} else
+if (resolution === '1152 by 864 pixels')  {wrapper.style.width = '1135px';} else
+if (resolution === '1280 by 720 pixels')  {wrapper.style.width = '1263px';} else
+if (resolution === '1280 by 768 pixels')  {wrapper.style.width = '1263px';} else
+if (resolution === '1280 by 800 pixels')  {wrapper.style.width = '1263px';} else
+if (resolution === '1280 by 960 pixels')  {wrapper.style.width = '1263px';} else
+if (resolution === '1280 by 1024 pixels') {wrapper.style.width = '1263px';}
+*/

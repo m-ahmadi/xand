@@ -1,0 +1,14 @@
+look into these files:
+
+	pc-shop/admin/comment.php
+	pc-shop/js/Application/modules/header.login.ajax.js
+	pc-shop/js/Application/modules/popup/popuplogin.ajax.js
+	pc-shop/layouts/header.php
+	websocket_server.php
+
+
+
+
+
+
+

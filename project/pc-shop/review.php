@@ -1,0 +1,1 @@
+<?php require_once('library/initialize.php');include_layout('header.php', 'نقد و بررسی', 'review', 'css');?><h4 style="direction:rtl;height:318px;">نقد</h4><?php include_layout('footer.php'); ?>

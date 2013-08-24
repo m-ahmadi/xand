@@ -1,0 +1,38 @@
+<div id="view_options">
+<form name="view_options">
+
+	<input type="hidden" name="form" value="view">
+	<div id="sort_products">
+		<label>مرتب سازي بر اساس</label>
+		<select name="sort_by[category]">
+			<option value="price" selected>قیمت</option>
+			<option value="view-count">بازديد</option>
+			<option value="user-rate">امتياز کاربران</option>
+			<option value="newest">جدید</option>
+			<option value="availablity">موجود</option>
+		</select>
+		<select name="sort_by[asc_desc]">
+			<option value="desc">نرولي</option>
+			<option value="asc">صعودي</option>
+		</select>
+	</div>
+	
+	<div id="products_per_page">
+		<label>تعداد نمایش</label>
+		<select name="per_page">
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="6" selected>6</option>
+			<option value="12">12</option>
+			<option value="18">18</option>
+			<option value="24">24</option>
+			<option value="30">30</option>
+			<option value="36">36</option>
+			<option value="42">42</option>
+			<option value="48">48</option>
+			<option value="all">همه</option>
+		</select>
+	</div>
+
+</form>
+</div>

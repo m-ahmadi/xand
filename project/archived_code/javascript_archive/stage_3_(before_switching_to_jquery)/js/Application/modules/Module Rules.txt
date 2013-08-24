@@ -1,0 +1,15 @@
+/*
+	Hands to yourself
+		– Only call your own methods or those on the sandbox
+		– Don't access DOM elements outside of your box
+		– Don't access non-native global objects
+	
+	Ask, don't take
+		– Anything else you need, ask the sandbox
+	
+	Don't leave your toys around
+		– Don't create global objects
+	
+	Don't talk to strangers
+		– Don't directly reference other modules
+*/

@@ -1,0 +1,6 @@
+E:\xandpc.com 1.0 (prev structure, on hold).rar:
+Checksum error in
+
+project\archived_code\javascript_archive\stage_3_(before_switching_to_jquery)\js\Libraries\$\jquery-ui-1.10.3\tests\jquery-1.7.1.js
+
+The file is corrupt

@@ -1,0 +1,40 @@
+<div id="popup-login">
+	<div class="login-wrap">
+		<p>برای ورود به سایت نام کاربری و رمز عبور خود را وارد نمائید.</p>
+		<a id="popup-login-close" tabindex="6"></a>
+		
+		<form id="popup-login-form" action="admin/login.php" method="POST" target="popup_login_iframe">
+		
+		<div class="login-top">
+			<div class="username-row">
+				<label class="lr" for="popup-login-username-input">نام کاربری </label>
+				<input type="text" name="username" id="popup-login-username-input" class="lr" size="43" tabindex="1" placeholder="  نام کاربری شما همان آدرس ایمیل شما می باشد" autofocus>
+			</div>
+			<div class="password-row">
+				<label class="lr" for="popup-login-password-input">رمز عبور </label>
+				<input type="password" name="password" id="popup-login-password-input" class="lr" size="43" tabindex="2">
+			</div>
+		</div>
+		
+		<div class="login-middle">
+			<div class="keep-login">
+				<input type="checkbox" name="keep_me_logged_in" value="on" tabindex="3"><label class="lr">داخل سایت بمان</label>
+			</div>
+			
+			<div class="forgot-password">
+				<a href="#">رمز عبورم را فراموش کرده ام</a>
+			</div>
+		</div>
+		
+		<div class="login-bottom">
+			<div class="login-register-buttons">
+				<button type="submit" class="butt lr" id="popup-login-submit-button" tabindex="4">ورود</button>
+				<a href="register.php" class="autt lr" id="registeration_page" tabindex="5">ثبت نام</a>
+			</div>
+		</div>
+		
+		</form>
+	</div>
+	
+	<iframe name="popup_login_iframe" id="popup_login_iframe" width="0" height="0" sandbox="allow-same-origin allow-scripts" seamless></iframe>
+</div>

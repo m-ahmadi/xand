@@ -1,0 +1,234 @@
+
+/*
+#product	#product_details	table {
+	box-shadow:0 0 2px .1px rgba(0,0,0,.5);
+	background:#EEEEEE;
+	margin:10px 10px 10px 0;
+	clear:both;
+	float:right;
+	direction:rtl;
+}
+#product	#product_details	table td,th {
+	padding:5px;
+	text-align:center;
+}
+#product	#product_details	table th {
+	background:#CCCCCC;
+	color:#3D003D;
+}
+#product	#product_details	table td {
+	 background:#F0F0F0; 
+}
+#product	#product_details	table {
+	float:right;
+}
+#product	#product_details	.seperator {
+	background:#1f3b08;
+	height:5px;
+}
+*/
+#product	#product_details	#wrap {
+	direction:rtl;
+	clear:both;
+	background:#9E9E9E;
+	float:right;
+	width:60%;
+	margin-right: 5px;
+	padding: 1px 5px;
+}
+#product	#product_details	.fsec {
+	float:right;
+	background:#009BCC;
+}
+#product	#product_details	.secwrap {
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	background: #009BCC;
+	border-radius: 2px;
+	box-shadow: 0px 0px 5px -1px #242424;
+}
+#product	#product_details	.sechead{
+	font-weight:bold;
+	color:white;
+	float: right;
+}
+
+#product	#product_details	 .togbutt {
+	padding:0;
+	width:18px;
+	height:24px;
+	margin:0 0 0 0;
+}
+
+
+
+#product	#product_details	table {
+	margin:0;
+}
+
+#product	#product_details	.tab1 {
+	box-shadow:0 0 2px .1px rgba(0,0,0,.5);
+	background:#EEEEEE;
+	clear:both;
+	float:right;
+	direction:rtl;
+}
+#product	#product_details	.tab2 {
+	margin:-1px;
+	border:none;
+	box-shadow:none;
+}
+#product	#product_details	.tab3 {
+	margin:-1px;
+	/* width: 100%; */
+}
+#product	#product_details	.tab4 {
+	margin:-1px;
+	/* width: 100%; */
+}
+#product	#product_details	.tab4 {
+	margin:-1px;
+	/* width: 100%; */
+}
+#product	#product_details	.tab5 {
+	margin:-1px;
+	/* width: 100%; */
+}
+#product	#product_details	.tab6 {
+	margin:-1px;
+	/* width: 100%; */
+}
+#product	#product_details	.tab7 {
+	margin:-1px;
+	/* width: 100%; */
+}
+#product	#product_details	.h {
+	padding:5px;
+	text-align:center;
+	background:#CCCCCC;
+	color:#3D003D;
+}
+#product	#product_details	.h1 {
+	border-left:1px solid #8F8F8F;
+}
+#product	#product_details	.h2 {
+	border-left:1px solid #8F8F8F;
+	background:#00779C;
+	color:wheat;
+}
+#product	#product_details	.h3 {
+	border-left:1px solid #8F8F8F;
+	background:#5A5A5A;
+	color:white;
+}
+#product	#product_details	.h4 {
+	border-left:1px solid #8F8F8F;
+	background: #48576D;
+	color: #BFBDCF;
+}
+#product	#product_details	.h5 {
+	border-left:1px solid #8F8F8F;
+	background: #9EBDB0;
+}
+#product	#product_details	.h6 {
+	border-left:1px solid #8F8F8F;
+}
+#product	#product_details	.h7 {
+	
+}
+#product	#product_details	.d {
+	text-align:center;
+	background:bisque;
+	padding:5px;
+}
+#product	#product_details	.d1 {
+	
+}
+#product	#product_details	.d2 {
+	
+}
+#product	#product_details	.d3 {
+	
+}
+#product	#product_details	.d4 {
+	
+}
+#product	#product_details	.d5 {
+	
+}
+#product	#product_details	.d6 {
+	
+}
+#product	#product_details	.d7 {
+	
+}
+
+#product	#product_details	.r1 {
+	border-bottom:1px solid #8F8F8F;
+}
+#product	#product_details	.r2 {
+	border-bottom:1px solid #8F8F8F;
+}
+#product	#product_details	.r3 {
+	border-bottom:1px solid #8F8F8F;
+}
+#product	#product_details	.r4 {
+	border-bottom:1px solid #8F8F8F;
+}
+#product	#product_details	.r5 {
+	border-bottom:1px solid #8F8F8F;
+}
+#product	#product_details	.r6 {
+	border-bottom:1px solid #8F8F8F;
+}
+#product	#product_details	.r7 {
+	border-bottom:1px solid #8F8F8F;
+}
+
+#product	#product_details	.btn {
+	border-top:none;
+}
+#product	#product_details	.brn {
+	border-right:none;
+}
+#product	#product_details	.bbn {
+	border-bottom:none;
+}
+#product	#product_details	.bln {
+	border-left:none;
+}
+
+
+#product	#product_details	ul.unordered_list {
+	direction:ltr;
+	text-align:left;s
+}
+
+
+
+
+
+#product	#product_details	 ol {
+	direction:ltr;
+	margin:0;
+}
+
+/*
+#product	#product_details	.td {
+	float:right;
+	margin-right:20px;
+	text-align:center;
+	background:bisque;
+}
+#product	#product_details	.th {
+	float:right;
+	background:#CCCCCC;
+	color:#3D003D;
+	font-weight:bold;
+}
+#product	#product_details	.row {
+	border-bottom: 1px solid #8F8F8F;
+	padding:5px;
+}
+*/

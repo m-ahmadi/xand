@@ -1,0 +1,25 @@
+
+.latest {
+	float:right;
+	margin:5px;
+	background: #e3e3e3;
+}
+
+
+.latest_motherboard {
+	background:#E0E6D6;
+	overflow:hidden;
+	margin:10px 5px 10px 5px;
+	box-shadow:0 1px 4px .1px black;
+}
+.latest_cpu {
+	background:#E0E6D6;
+	overflow:hidden;
+	margin:10px 5px 10px 5px;
+	box-shadow:0 1px 4px .1px black;
+}
+.latest h1{
+	text-align:right;
+	margin:20px 20px 0 0;
+	color:#9900CC;
+}

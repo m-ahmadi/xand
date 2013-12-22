@@ -1,0 +1,132 @@
+#popups {
+	
+}
+#popups .popup-back {
+	width: 100%;
+	display:none;
+	background: rgba(0, 0, 0, 0.80);
+	position: absolute;
+}
+
+#popups  #popup-login {
+	display:none;
+	position: fixed;
+	width:40%;
+	top: 20%;
+	left: 32%;
+	border-radius: 3px;
+	direction:rtl;
+	background: rgb(11,142,168);
+	background: -moz-linear-gradient(top,  rgba(11,142,168,1) 0%, rgba(83,209,244,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(11,142,168,1)), color-stop(100%,rgba(83,209,244,1)));
+	background: -webkit-linear-gradient(top,  rgba(11,142,168,1) 0%,rgba(83,209,244,1) 100%);
+	background: -o-linear-gradient(top,  rgba(11,142,168,1) 0%,rgba(83,209,244,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(11,142,168,1) 0%,rgba(83,209,244,1) 100%);
+	background: linear-gradient(to bottom,  rgba(11,142,168,1) 0%,rgba(83,209,244,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b8ea8', endColorstr='#53d1f4',GradientType=0 );
+
+}
+#popups #popup-login 	.login-wrap{
+	margin:8px;
+}
+#popups  #popup-login 	p {
+	color: white;
+	font-size: 13px;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+#popups  #popup-login 	#popup-login-close {
+	background:url('../images/close-black.png');
+	width:20px;
+	height:20px;
+	display:inline-block;
+	position:absolute;
+	top:3px;
+	left:3px;
+	cursor:pointer;
+}
+#popups  #popup-login 	#popup-login-close:hover {
+	background:url('../images/close-black-hover.png');
+}
+#popups  #popup-login 	#popup-login-close:active {
+	top:4px;
+}
+#popups  #popup-login 	.login-top {
+	margin-right: 13%;
+}
+#popups  #popup-login 	.username-row {
+	margin-bottom:3%;
+	margin-top:2%;
+}
+#popups  #popup-login 	.login-top label{
+	/* font-size: 16px; */
+	color:white;
+}
+#popups  #popup-login 	.username-row  label {
+	margin-left:2%;
+}
+#popups  #popup-login 	.password-row  label {
+	margin-left:6%;
+}
+#popups  #popup-login 	.login-top input{
+	height: 19px;
+	border-radius: 1px;
+	direction:ltr;
+	font-family:tahoma;
+	width: 85%;
+	font-size:100%;
+}
+#popups  #popup-login 	.login-middle {
+	margin-right: 12%;
+	margin-top:2%;
+}
+#popups  #popup-login	.login-middle	.keep-login input {
+	vertical-align: top;
+}
+#popups  #popup-login	.login-middle	.keep-login label {
+	color:white;
+	/* font-size:13px; */
+}
+#popups  #popup-login	.login-middle	.forgot-password {
+	text-decoration:none;
+	margin-bottom:22px;
+}
+#popups  #popup-login	.login-middle	.forgot-password a {
+	text-decoration:none;
+	/* font-size: 13px; */
+	color:#535353;
+}
+#popups  #popup-login	.login-middle	.forgot-password a:hover {
+	color:#535353;
+}
+
+
+
+#popups  #popup-login 	.login-bottom {
+	margin-top:2%;
+}
+#popups  #popup-login	.login-bottom	.login-register-buttons {
+	margin-right: 8.6%;
+}
+#popups  #popup-login	.login-bottom	.login-register-buttons * {
+	text-align:center;
+	padding:5px;
+	font-size:15px;
+}
+#popups  #popup-login	.login-bottom	.login-register-buttons 	a {
+	width:40%;
+}
+#popups  #popup-login	.login-bottom	#popup-login-submit-button {
+	margin-left: 4%;
+	width: 42.5%;
+	padding-top: 1.5%;
+	padding-bottom: 1.9%;
+}
+
+#popups  #popup-login	iframe {
+	width:0;
+	height:0;
+	padding:0;
+	margin:0;
+	display:none;
+}

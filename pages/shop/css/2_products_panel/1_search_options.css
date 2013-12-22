@@ -1,0 +1,84 @@
+
+#search_options {
+	direction:ltr;
+	clear:both;
+	float: right;
+	margin:2px;
+	padding:5px;
+	border:1px solid black;
+	border-radius:3px;
+	background: #fcfff4;
+	background: -moz-linear-gradient(left,  #fcfff4 0%, #dfe5d7 0%, #dfe5d7 0%, #b3bead 90%, #b3bead 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fcfff4), color-stop(0%,#dfe5d7), color-stop(0%,#dfe5d7), color-stop(90%,#b3bead), color-stop(100%,#b3bead));
+	background: -webkit-linear-gradient(left,  #fcfff4 0%,#dfe5d7 0%,#dfe5d7 0%,#b3bead 90%,#b3bead 100%);
+	background: -o-linear-gradient(left,  #fcfff4 0%,#dfe5d7 0%,#dfe5d7 0%,#b3bead 90%,#b3bead 100%);
+	background: -ms-linear-gradient(left,  #fcfff4 0%,#dfe5d7 0%,#dfe5d7 0%,#b3bead 90%,#b3bead 100%);
+	background: linear-gradient(to right,  #fcfff4 0%,#dfe5d7 0%,#dfe5d7 0%,#b3bead 90%,#b3bead 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 );
+}
+
+.search_option {
+	padding:3px 8px 3px 8px;
+	margin:5px 1px 5px 1px;
+	border-radius:5px;
+	box-shadow: 0px 0px 2px 0px #242424;
+	color:white;
+	background: #445e2d;
+	background: -moz-linear-gradient(left,  #445e2d 0%, #33470d 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#445e2d), color-stop(100%,#33470d));
+	background: -webkit-linear-gradient(left,  #445e2d 0%,#33470d 100%);
+	background: -o-linear-gradient(left,  #445e2d 0%,#33470d 100%);
+	background: -ms-linear-gradient(left,  #445e2d 0%,#33470d 100%);
+	background: linear-gradient(to right,  #445e2d 0%,#33470d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#445e2d', endColorstr='#33470d',GradientType=1 );
+
+
+}
+
+.so_head {
+	height:25px;
+}
+
+.search_option label.title {
+	float:right;
+	text-align:right;
+	margin:3px 5px 0 0;
+	font-size:12px;
+	font-weight: bold;
+}
+.search_option .cmm {
+	float:right;
+	padding:0;
+	width:18px;
+	height:24px;
+	margin:0x 0 0 0;
+	border-radius: 4px;
+}
+
+#search_options select {
+	direction:rtl;
+}
+
+.search_option #es,#si,#usb,#ieee1394 {
+	display:none;
+}
+.search_option .subtitle {
+	font-weight:bold;
+	margin:3px 2px 0 0;
+}
+.search_option .multi {
+	margin-top:5px;
+}
+.butt {
+	clear:both;
+	float:right;
+}
+
+
+.search_option hr {
+	margin:3px 0 3px 0;
+}
+
+.clear {
+	clear:both;
+}

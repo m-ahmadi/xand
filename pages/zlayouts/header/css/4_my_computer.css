@@ -1,0 +1,18 @@
+
+#my-computer {
+	position: fixed;
+	bottom: 1px;
+}
+#my-computer * {
+	font-family: tahoma;
+}
+
+#mc-open {
+	display:none;
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: fixed;
+	bottom: 28px;
+	left: 72px;
+}

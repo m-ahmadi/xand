@@ -1,0 +1,20 @@
+
+.register {
+	background:#DBDBDB;
+	width:600px;
+
+	float:right;
+}
+.register form {
+	float:right;
+	margin:10px;
+}
+.register textarea{
+	direction:rtl;
+	max-width:377px;
+	max-height:90px;
+}
+
+.register .fft {
+	font-family:tahoma;
+}

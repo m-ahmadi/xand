@@ -1,0 +1,187 @@
+
+#login_register {
+	float:left;
+	margin:5px 5px 5px 100px;
+	position:relative;
+}
+#login_register .lbl {
+	/* font-weight:bold; */
+	font-size:11px;
+	text-align:right;
+	color:white;
+}
+#login_register		#login_button {
+	width:120px;
+	height:50px;
+	font-size:18px;
+	color:white;
+	font-family:tahoma;
+	margin: 3px;
+	cursor: pointer;
+	background: #B7AD70;
+}
+#login_register		#login_open {
+	display:none;
+}
+#login_register		.arrow_login {
+	position:absolute;
+	top:55px;
+	left:50px;
+	width:20px;
+	height:11px;
+	background-image:url('../images/arrow.png');
+	z-index:1;
+}
+#login_register		#box-open-wrap {
+	float:left;
+	margin:5px 5px 5px 0px;
+	position:absolute;
+	top:61px;
+	width:250px;
+	height: 165px;
+	border-radius: 3px;
+	direction:rtl;
+	
+	background: #d5cea6;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1Y2VhNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2M5YzE5MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiN2FkNzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d5cea6 0%, #c9c190 40%, #b7ad70 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5cea6), color-stop(40%,#c9c190), color-stop(100%,#b7ad70));
+	background: -webkit-linear-gradient(top,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	background: -o-linear-gradient(top,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	background: -ms-linear-gradient(top,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	background: linear-gradient(to bottom,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 );
+}
+#login_register		#login {
+/*
+	float:left;
+	margin:5px 5px 5px 0px;
+	position:absolute;
+	top:61px;
+	width:250px;
+	
+	border-radius: 3px;
+	direction:rtl;
+	
+	background: #d5cea6;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1Y2VhNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2M5YzE5MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiN2FkNzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d5cea6 0%, #c9c190 40%, #b7ad70 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5cea6), color-stop(40%,#c9c190), color-stop(100%,#b7ad70));
+	background: -webkit-linear-gradient(top,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	background: -o-linear-gradient(top,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	background: -ms-linear-gradient(top,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	background: linear-gradient(to bottom,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 );
+	
+	
+	background: #6db3f2;
+	background: -moz-linear-gradient(top,  #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6db3f2), color-stop(50%,#54a3ee), color-stop(51%,#3690f0), color-stop(100%,#1e69de));
+	background: -webkit-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	background: -o-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	background: -ms-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	background: linear-gradient(to bottom,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 );
+	*/
+}
+#login_register		#login-wrap  #login 	{
+	
+}
+#login_register		#login 	p {
+	color: white;
+	font-size: 13px;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+
+
+#login_register		#login 	.login-top {
+	margin-right: 8%;
+	margin-top: 6%;
+}
+#login_register		#login 	.username-row {
+	margin-bottom:3%;
+	margin-top:2%;
+}
+#login_register		#login 	.login-top label{
+	color:white;
+}
+#login_register		#login 	.username-row  label {
+	margin-left:2%;
+}
+#login_register		#login 	.password-row  label {
+	margin-left:6%;
+}
+#login_register		#login 	.login-top input{
+	height: 13px;
+	border-radius: 1px;
+	direction:ltr;
+	font-family:tahoma;
+	
+	
+}
+#login_register		#login 	.login-middle {
+	margin-right: 8%;
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+#login_register		#login	.login-middle	.keep-login input {
+	vertical-align: top;
+}
+#login_register		#login	.login-middle	.keep-login label {
+	color:white;
+	font-size: 11px;
+}
+#login_register		#login	.login-middle	.forgot-password {
+	text-decoration:none;
+}
+#login_register		#login	.login-middle	.forgot-password a {
+	text-decoration:none;
+	color:white;
+	font-size: 11px;
+}
+#login_register		#login	.login-middle	.forgot-password a:hover {
+	color:#00FFC2;
+}
+
+
+
+#login_register		#login 	.login-bottom {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+#login_register		#login	.login-bottom	.login-register-buttons {
+	margin-right: 8.6%;
+}
+#login_register		#login	.login-bottom	.login-register-buttons 	a, button{
+	font-size:13px;
+}
+#login_register		#login	.login-bottom	.login-register-buttons 	a {
+	width:40%;
+	text-align:center;
+}
+#login_register		#login	.login-bottom	#login-submit-button {
+	margin-left: 4%;
+	width:42.5%;
+	padding-bottom: 2.5%;
+	padding-top: 1%;
+}
+#login_register		#login	#login-server-response {
+	width: 98%;
+	height: 97%;
+	top: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.75);
+
+	color: white;
+	position: absolute;
+	display:none;
+	padding: 5px;
+}
+#login_register iframe {
+	width:0;
+	height:0;
+	padding:0;
+	margin:0;
+	display:none;
+}

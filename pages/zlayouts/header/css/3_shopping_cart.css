@@ -7,7 +7,7 @@
 #shopping-cart #sCart_button {
 	width:76px;
 	height:61px;
-	background-image:url('../images/shopping-cart.png');
+	background-image:url('../../pages/zlayouts/header/images/shopping-cart.png');
 	background-color:#beeb09;
 	background-repeat:no-repeat;
 	background-position:0% 100%; /* left bottom; */
@@ -61,7 +61,7 @@
 	left:50px;
 	width:20px;
 	height:11px;
-	background-image:url('../images/arrow.png');
+	background-image:url('../../pages/zlayouts/header/images/arrow.png');
 	z-index:1;
 }
 #shopping-cart	#cart{

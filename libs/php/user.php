@@ -1,5 +1,5 @@
 <?php
-require_once(LIBRARY.'database.php');
+require_once(LIB_PHP.'database.php');
 
 class User extends DatabaseObject {
 	

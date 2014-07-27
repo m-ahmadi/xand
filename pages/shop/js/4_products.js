@@ -1,7 +1,7 @@
-Shop.extend('click', 'products', function(t, m, e) {
-	if (t.tagName === 'BUTTON') {
-		var target = t.target,
-			value = t.target.val();
+
+	if (tagName === 'BUTTON') {
+		var target = target,
+			value = target.val();
 		
 		if ( target.hasClass('atc') ) {
 			if (value === 'enabled') {
@@ -18,7 +18,7 @@ Shop.extend('click', 'products', function(t, m, e) {
 				var item = {
 					href : target.prev().attr('href'),
 					price : target.parent().prev().prev().children().children().children().children().next().data('price'),
-					name : t.id
+					name : id
 				};
 				arr.push(item);
 				
@@ -26,6 +26,3 @@ Shop.extend('click', 'products', function(t, m, e) {
 			}
 		}
 	}
-	
-	
-});

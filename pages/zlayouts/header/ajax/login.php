@@ -1,5 +1,6 @@
 <?php
-require_once('../library/initialize.php');
+require_once('../../../../libs/php/config.php');
+require_once(LIB_PHP . 'initialize.php');
 
 $username = isset($_POST['username']) ? trim($_POST['username']) : null;
 $password = isset($_POST['password']) ? trim($_POST['password']) : null;

@@ -1,15 +1,15 @@
 <?php 
-require_once(LIBRARY.'database.php');
+require_once(LIB_PHP.'database.php');
 
 class Shop {
 	
 	public static function main_page_for($product) {
 		self::set_defaults($product);
 		$product .= 's';
-		$path = '../js/application/modules/shop/';
+		$path = '../js/';
 		
-		$html  = @file_get_contents('../layouts/shop/search_options/'.$product.'.htm');
-		$html .= @file_get_contents('../layouts/shop/view_options.htm');
+		$html  = @file_get_contents('../html/search_options/'.$product.'.htm');
+		$html .= @file_get_contents('../html/view_options.htm');
 		$html .= '<div id="products">';
 		$html .= 	self::add_pagination_links();
 		$html .= 	self::find_by_sql( self::bring_sql() );

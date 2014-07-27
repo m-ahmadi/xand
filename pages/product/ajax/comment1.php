@@ -1,5 +1,6 @@
 <?php
-require_once(SITE_ROOT . 'library/initialize.php');
+require_once('../../../libs/php/config.php');
+require_once(LIB_PHP . 'initialize.php');
 
 $comment_text = isset($_POST['comment']) ? $_POST['comment'] : null;
 

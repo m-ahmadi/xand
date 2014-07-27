@@ -31,22 +31,15 @@ function __autoload($class_name) {
 	}
 }
 
-function include_layout($layout=null, $page=null, $title=null) {
+function include_header($page=null, $title=null) {
+	$page = $page;
+	$page_title = $title;
+	return (include(HEADER)) ? true : false;
+}
 
-	if ($layout) {
-	
-		$page = $page;
-		$page_title = $title;
-		
-		$seperated = explode('.', $layout);
-		
-		if ( include(LAYOUTS . $seperated[0] . DS . $layout) ) {
-			return true;
-		} else {
-			return false;
-		}
-		
-	}
+function include_footer($page=null) {
+	$page = $page;
+	return (include(FOOTER)) ? true : false;
 }
 
 function script() {
@@ -63,7 +56,6 @@ function script() {
 	
 	return $html;
 }
-
 
 function popup_login() {
 	$html  = '';

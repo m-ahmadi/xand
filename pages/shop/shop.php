@@ -1,7 +1,7 @@
 <?php
 require_once('../../libs/php/initialize.php');
 
-include_layout('header.php', 'shop', 'فروشگاه کامپیوتر');
+include_header('shop', 'فروشگاه کامپیوتر');
 
 ?>
 <div id="shop">
@@ -41,5 +41,5 @@ include_layout('header.php', 'shop', 'فروشگاه کامپیوتر');
 
 
 <?php
-//include_layout('footer.php');
+include_footer('shop');
  ?>

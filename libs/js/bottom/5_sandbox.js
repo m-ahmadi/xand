@@ -289,24 +289,15 @@ var sandbox = (function (appCore) {
 	function accessModule(moduleName) {
 		return core.requestAccessModule(moduleName);
 	}
-	function select(boxID, str) {
-		var el;
-		if (str) {
-			if (typeof str==='object'  &&  str.nodeType!=='undefined') { 
-				// Naked DOM element coming from event object.
-				el = $(str);
-			} else {
-				el = $(boxID + ' ' + str);
-			}
-		} else {
-			el = $(boxID);
+	function select(selector, context) {
+		if (selector) {
+			return new Element( $(selector, context) );
 		}
-		//return el;
-		return new Element(el);
 	}
 	function Element(set) {
 		if (set.length > 1) {
-		
+			
+			// Add custom function
 			set.applyToAll = function() {
 				var fn = arguments[0],
 					arg = arguments[1];

@@ -1,21 +1,11 @@
-<?php require_once(LIBRARY . 'initialize.php'); ?>
+<?php require_once(LIB_PHP . 'initialize.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title><?php echo $page_title; ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo STYLE_GENERATOR_PATH.$page; ?>">
-	<script type="text/javascript" src="<?php echo SCRIPT_GENERATOR_PATH.$page; ?>"></script>
-	
-	<!--<script type="text/javascript" src="<?php echo JS.'Application/first.js'; ?>"></script>
-	<script type="text/javascript" src="<?php echo JS.'Application/websocket.js'; ?>"></script>-->
-	
-	<script type="text/javascript">
-	<?php global $session; ?> 
-	<?php if ( $session->is_logged_in() ) : ?>
-	if (!ws) { var ws = createWebSocket('ws://localhost:9090/websocket_server.php'); }
-	<?php endif;?>
-	</script>
+	<script type="text/javascript" src="<?php echo HEAD_SCRIPT_GENERATOR_PATH.$page; ?>"></script>
 </head>
 
 <body>
@@ -26,10 +16,10 @@
 <header id="header">
 	<nav id="main_nav">
 		<ul>
-			<li><a href="first.php"  class="nav_butt gradgreen <?php if ($section == 'home')   {echo "current";} ?>">صفحه اول</a></li>
-			<li><a href="shop.php"   class="nav_butt gradgreen <?php if ($section == 'shop')   {echo "current";} ?>">فروشگاه کامپیوتر</a></li>
-			<li><a href="review.php" class="nav_butt gradblue  <?php if ($section == 'review') {echo "current";} ?>">بازدهی و کارایی</a></li>
-			<li><a href="#         " class="nav_butt gradgreen <?php if ($section == 'review') {echo "current";} ?>">ویدئو</a></li>
+			<li><a href="first.php"  class="nav_butt gradgreen <?php if ($page == 'home')   {echo "current";} ?>">صفحه اول</a></li>
+			<li><a href="shop.php"   class="nav_butt gradgreen <?php if ($page == 'shop')   {echo "current";} ?>">فروشگاه کامپیوتر</a></li>
+			<li><a href="review.php" class="nav_butt gradblue  <?php if ($page == 'review') {echo "current";} ?>">بازدهی و کارایی</a></li>
+			<li><a href="#         " class="nav_butt gradgreen <?php if ($page == 'review') {echo "current";} ?>">ویدئو</a></li>
 		</ul>
 	</nav>
 	

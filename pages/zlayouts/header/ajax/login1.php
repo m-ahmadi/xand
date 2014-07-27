@@ -1,5 +1,6 @@
 <?php
-require_once('F:\xampp\htdocs\project\pc-shop\library\initialize.php');
+require_once('../../../../libs/php/config.php');
+require_once(LIB_PHP . 'initialize.php');
 
 
 

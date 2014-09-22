@@ -1,0 +1,6 @@
+in order:
+
+	1. db_p.sql
+	2. table_users.sql
+	3. table_comments.sql
+	4. table_products "eg: mobo, cpu, ram, etc"

@@ -107,23 +107,23 @@
 	margin:0;
 }
 #product	#product_comments		#text_editor_bold {
-	background-image:url('../images/b.png');
+	background-image:url('../../pages/product/images/b.png');
 	background-repeat:no-repeat;
 }
 #product	#product_comments		#text_editor_italic {
-	background-image:url('../images/i.png');
+	background-image:url('../../pages/product/images/i.png');
 	background-repeat:no-repeat;
 }
 #product	#product_comments		#text_editor_quote {
-	background-image:url('../images/q.png');
+	background-image:url('../../pages/product/images/q.png');
 	background-repeat:no-repeat;
 }
 #product	#product_comments		#text_editor_link {
-	background-image:url('../images/l2.png');
+	background-image:url('../../pages/product/images/l2.png');
 	background-repeat:no-repeat;
 }
 #product	#product_comments		#text_editor_image {
-	background-image:url('../images/im.png');
+	background-image:url('../../pages/product/images/im.png');
 	background-repeat:no-repeat;
 }
 

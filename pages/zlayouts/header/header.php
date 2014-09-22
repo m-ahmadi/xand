@@ -48,7 +48,7 @@
 	<div id="login_register" class="lr">
 		<button type="button" class="login_register" value="login_min" id="login_button"><?php echo $msg; ?></button>
 		
-		<?php echo ($session->is_logged_in())? '<a href="#" type="submit" id="logout_button">خروج</a>' : null; ?>
+		
 		
 		<div id="login_open" class="lr">
 			<div class="arrow_login"></div>
@@ -67,9 +67,9 @@
 					
 					
 				} else { // Not Logged-In
-					$content = file_get_contents('layouts/login_register/login.htm');
+					$content = file_get_contents('../zlayouts/header/login_register/login.htm');
 					echo $content;
-					echo script('js/application/modules/header/login.ajax.js');
+					echo script('../zlayouts/header/js/application/modules/header/login.ajax.js');
 				}
 				*/
 				?>
@@ -86,21 +86,27 @@
 	
 	
 	<div id="shopping-cart">
-		<button type="button" class="special-sCart-butt" value="sCart_min" id="sCart_button"></button>
+		<button type="button" class="special-sCart-butt" value="sCart_min" id="sCart_button">
+			<span id="empty">خالی</span>
+		</button>
 		
 		<div id="sCart_open">
 			<div class="arrow_sCart"></div>
-			<div id="cart"></div>
+			<div id="cart">
+				<p>سبد خريد خالي است</p>
+			</div>
 		</div>
 	</div>
 	
 </header>
 
 
+<?php //readfile(LIB_HTML . 'popups.htm'); ?>
 <div id="popups">
 	<div id="popup-link"></div>
 	<div id="popup-image"></div>
-	
+	<?php readfile(LIB_HTML . 'popup-login.htm'); ?>
+	<iframe name="popup_login_iframe" id="popup_login_iframe" width="0" height="0" sandbox="allow-same-origin allow-scripts" seamless></iframe>
 </div>
 
 <div id="content" class="content">

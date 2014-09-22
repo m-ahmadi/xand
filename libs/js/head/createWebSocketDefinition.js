@@ -1,3 +1,4 @@
+/*
 createWebSocket = function(server) {
 	var ws = new WebSocket(server);
 	ws.onopen = function(e) {
@@ -29,3 +30,4 @@ createWebSocket = function(server) {
 	};
 	return ws;
 }
+*/

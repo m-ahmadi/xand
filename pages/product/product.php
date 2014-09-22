@@ -1,11 +1,13 @@
 <?php
-require_once('library/initialize.php');
+require_once('../../libs/php/initialize.php');
+require_once(PRODUCT_PHP . 'product_class.php');
+require_once(PRODUCT_PHP . 'comment_class.php');
 
 $p_cat = isset($_GET['p_cat']) ? $_GET['p_cat'] : null;
 $id = isset($_GET['id']) ? $_GET['id'] : null;
 
 //($p_cat!=='motherboard' || $p_cat!=='cpu' || $p_cat!=='graphic' || $p_cat!=='memory')
-if (!$p_cat ) { redirect_to('shop.php'); }
+if (!$p_cat ) { redirect_to(PAGES.'shop/shop.php'); }
 
 
 $product = new Product($p_cat.'s');
@@ -13,7 +15,7 @@ $this_product = $product->find_by_id($id);
 $session->product_id($id);
 
 
-include_layout('header.php', $this_product->company .' '. $this_product->model);
+include_header('product', $this_product->company .' '. $this_product->model);
 ?>
 
 
@@ -40,7 +42,7 @@ include_layout('header.php', $this_product->company .' '. $this_product->model);
 <div id="product_details">
 	
 	<?php
-	include('layouts/shop/product_details/'. $this_product->p_cat .'.php');
+	include('html/product_details/'. $this_product->p_cat .'.php');
 	?>
 
 	
@@ -106,5 +108,5 @@ include_layout('header.php', $this_product->company .' '. $this_product->model);
 
 
 
-<?php include_layout('footer.php'); ?>
+<?php include_footer('product'); ?>
 

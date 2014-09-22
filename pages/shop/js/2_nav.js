@@ -1,15 +1,17 @@
-
-	if (target.hasClass('shop-nav-butt')) {
-		e.preventDefault();
-		SITE.shop.blackAll(target);
-		
-		
-		// AJAX request
-		var data, product = target.data('product');
-		data = 'product='+ product;
-		sandbox.ajaxPost({
-			url : 'ajax/shop-control.php',
-			data : data,
-			container : '#products_and_options'
-		});
-	}
+$('#shop').on('click', 'a.shop-nav-butt', function(e) {
+	var target = $(e.target);
+	
+	e.preventDefault();
+	SITE.pages.shop.blackAll(target);
+	
+	var data, product = target.data('product');
+	data = 'product='+ product;
+	SITE.pages.shop.ajax.request({
+		url : 'php/ajax/shop-control.php',
+		data : data,
+		dataType : 'html',
+		type : 'POST',
+		whileLoading : '#products_and_options',
+		responseContainer : '#products_and_options'
+	});
+});
